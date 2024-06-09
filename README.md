@@ -6,7 +6,7 @@ Python-скрипты (с учётом синтаксиса Workato) и реце
 - После обработки данных формирует файлы отчётов и аналитические графики.
 - Отправляет уведомления логисту компании на почту с полученными результатами в виде отчёта и графиков для дальнейшего анализа и использования в бизнесе.
 
-Рецепт Workato - https://app.workato.com/recipes/47212069-send-report-from-google-drive-to-email#recipe
+Рецепт Workato - [https://app.workato.com/recipes/47212069-send-report-from-google-drive-to-email#recipe](https://app.workato.com/recipes/47212069?st=88f2c717d1443876da04038242cbd1dbbfc1e35fded358266dc734039d8fbe58)
 
 Lookup Table справочник по импортёрам Workato - https://app.workato.com/lookup_tables/3473798
 
