@@ -6,7 +6,7 @@ import requests
 
 def main(input):
   try:
-    file_content = input['markup_file']
+    file_content = input['balance_file']
     # Загрузка файла Excel
     message_bytes = base64.b64decode(file_content)
     toread = io.BytesIO(message_bytes)
