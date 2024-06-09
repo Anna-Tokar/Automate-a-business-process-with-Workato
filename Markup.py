@@ -4,13 +4,12 @@ from io import BytesIO
 import requests
     
 def main(input):
-  file_content = input['markup_file']
-  # Загрузка файла Excel
-  message_bytes = base64.b64decode(file_content)
-  toread = io.BytesIO(message_bytes)
-  df = pd.read_excel(toread)
   try:
-    # Чтение файла Excel с использованием pandas
+    file_content = input['markup_file']
+    # Загрузка файла Excel
+    message_bytes = base64.b64decode(file_content)
+    toread = io.BytesIO(message_bytes)
+    df = pd.read_excel(toread)
     # Замена NAN на 0
     df = df.fillna(0)
   except requests.exceptions.RequestException as e:
