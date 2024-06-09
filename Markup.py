@@ -25,7 +25,6 @@ def main(input):
   main_list = df.values.tolist()
   # Сортировка main_list по убыванию столбца 'markup'
   main_list.sort(key=lambda x: x[-1], reverse=True)
-  print(main_list)
   return {'markup_items':main_list}
 
 def _get_markup_prev_month(df: pd.DataFrame):
