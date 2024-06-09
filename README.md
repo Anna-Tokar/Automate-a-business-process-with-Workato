@@ -7,6 +7,9 @@ Python-скрипты (с учётом синтаксиса Workato) и реце
 - Отправляет уведомления логисту компании на почту с полученными результатами в виде отчёта и графиков для дальнейшего анализа и использования в бизнесе.
 
 Рецепт Workato - https://app.workato.com/recipes/47212069-send-report-from-google-drive-to-email#recipe
+
 Lookup Table справочник по импортёрам Workato - https://app.workato.com/lookup_tables/3473798
+
 Lookup Table справочник по товарам Workato - https://app.workato.com/lookup_tables/3472684
+
 Получаемый отчёт по сезонности спроса в Lookup table Workato - https://app.workato.com/lookup_tables/3495654
